@@ -1,23 +1,34 @@
 
 .car, .city, .green, .mountain, .road, .water{
-    height: 500px;
-    display: block;
-    width: 1080px;
-    padding: 0%;
+  height: 500px;
+  display: block;
+  width: 1080px;
+  padding: 0%;
 }
-.gomb2{
-  transform: rotate(0.5turn);
+#gomb2{
+transform: rotate(0.5turn);
 } 
 .container{
-  display: flex;
-  width: 1160px;
-  position: absolute;
-  top: 18%;
-  left: 20%;
+display: flex;
+width: 1160px;
+position: absolute;
+top: 18%;
+left: 20%;
 }
 button{
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+h1{
+font-size: 100px;
+position: absolute;
+bottom: 50px;
+left: 50px;
+}
+p{
+font-size: 70px;
+position: absolute;
+top: 900px;
+left: 50px;
 }
